@@ -20,7 +20,7 @@ else {
   else {
     echo "<script>alert('username or password entered incorrectly')</script>"
 
-    echo "<script>location.href='login.php'</script>";
+    echo "<script>location.href='login.html'</script>";
   }
 }
 
