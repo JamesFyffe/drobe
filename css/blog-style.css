@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  font-family:  sans-serif;
+
+}
+
+.main-article-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.main-article-category, .author-name:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.main-article-category:hover, .main-article-titlehover, .author-name {
+  text-decoration: underline;
+}
