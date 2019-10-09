@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>blog</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/blog-style.css">
+  </head>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+ <a class="navbar-brand" href="#"><img src="logosmall.png" alt="homelink"></a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul class="navbar-nav mr-auto">
+     <li class="nav-item">
+       <a class="nav-link" href="loginhome.html">Home <span class="sr-only">(current)</span></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="loginstaff-picks.html">Staff picks</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="logindesign.html">Outfit Creator</a>
+     </li>
+     <li class="nav-item active">
+       <a class="nav-link" href="loginblog.html">Blog</a>
+     </li>
+	 <li class="nav-item">
+       <a class="nav-link" href="#">wishlist</a>
+     </li>
+   </ul>
+   <form class="form-inline my-2 my-lg-0">
+     <a class="btn btn-outline-success my-2 my-sm-0" href="../php/logout.php" role="button">Logout</a>
+   </form>
+ </div>
+</nav>
+
+<script>
+  function showarticle() {
+  var x = document.getElementById("article-text-1");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+<script>
+  function showarticle1() {
+  var x = document.getElementById("article-text-2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+
+
+
+<body>
+<main role="main" class="container">
+  <div class="parallax"></div>
+<div class="row">
+  <div class="col-md-8">
+    <img class="img-responsive" width="100%" src="browseimg/WSPCN1.jpg" alt="">
+  </div>
+  <div class="col-md-4">
+    <br / >
+    <span class="main-article-category">Weekly Competitions</span>
+    <br / >
+    <span class="main-article-title">Weekly outfit competition - submit your outfits here</span>
+    <br / >
+    <span>Posted by <span class="author-name">Admin</span></span>
+    <br/>
+    <button type="button" class="btn btn-light" onclick="showarticle()">Read</button>
+  </div>
+  <div class="col-md-6" id="article-text-1" style="display:none;">
+    <br />
+    <span class="main-article-text">Welcome everyone to the first weekly competition being held on the drobe website!</span>
+    <span class="main-article-text">Comment your entries below this post, and for rules please see the staff picks section.</span>
+    <span class="main-article-text">Best of luck everyone!</span>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8">
+     <p></p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-8">
+    <img class="img-responsive" width="100%" src="browseimg/BHOBB1.jpg" alt="">
+  </div>
+  <div class="col-md-4">
+    <br / >
+    <span class="main-article-category">History</span>
+    <br / >
+    <span class="main-article-title">A brief history - beauty:beast</span></a>
+    <br / >
+    <span>Posted by <span class="author-name">Admin</span></span>
+    <br/>
+    <button type="button" class="btn btn-light" onclick="showarticle1()">Read</button>
+  </div>
+  <div class="col-md-6" id="article-text-2" style="display:none;">
+    <br />
+    <span class="main-article-text">This Japanese fashion brand was founded in 1990 by the designer and master of the industry Takao Yamashita. The first collection was presented in 1991 along with the rise of the urban culture in the famous district of Harajuku, which catapulted it to its stardom; Currently, it is considered as a cult brand in the Japanese country. Like his peers, Yamashita is inspired by the punk culture of the United States. However, it moves away from the “careless” style of Takahashi (Undercover) and Miyashita (Number Nine); and approaches other topics such as religion, fairytales and iconography. Yamashita designs t-shirts, blouses, parkas and accessories that are really curious, an example, a giant safety pin from AW 98-99; always with a strong symbolic charge. He collaborates with brands such as Undercover or 20471120, which are part of the 2000 Japanese wardrobe.
+
+Since last year we have been able to see a growing wave of archive buyers, who devour Grailed in order to find those Raf or Junya coveted garments; However, these genuine brands tend to be forgotten because of the most superficial ones.
+
+There is hardly any information beyond the magazines of that time or archives of the underground culture in Japan; but here we bring a brief sample with some designs from the brand.!</span>
+  </div>
+</div>
+</main>
+
+<footer>
+
+  <div class="footer-copyright py-3 text-center">
+
+  </div>
+
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>

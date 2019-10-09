@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  font-family:  sans-serif;
+
+}
+
+.parallax {
+  height: 75vh;
+  width: 100%;
+  display: table;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../parallax4.png);
+}
+
+.main-article-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.main-article-category, .author-name:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.main-article-category:hover, .main-article-titlehover, .author-name {
+  text-decoration: underline;
+}
